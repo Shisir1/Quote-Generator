@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    #one{
+      border: 2px;
+    }
+    .two{
+      border: 5px;
+    }
+  </style>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Heading Tag -->
+  <h1>Welcome</h1>
+  <h2>to the Takeo's</h2>
+  <h3>Bootcamp</h3>
+
+  <!-- Paragraph -->
+  <p>Lorem Ipsum</p>
+
+  <!-- Line Break-->
+  <hr>
+  <!--Void tages: the tags that do not require the closing tag-->
+  <img src="images/MyPhoto.jpeg" alt=""/>
+  <!-- control + spce to get all -->
+
+  <p id="one">this is a Paragraph</p>
+  <p id="one">this is a Paragraph</p>
+
+  <h1 class="two">This is a header</h1>
+  <h1 class="two">this is also a heading</h1>
+
+  <p id="external">This is a paragraph using external css file</p>
+
+  <script>
+    let x = document.getElementById("one");
+    console.log(x);
+
+    let y = document.getElementsByClassName("two");
+    console.log(y);
+  </script>
+</body>
+</html>
+
