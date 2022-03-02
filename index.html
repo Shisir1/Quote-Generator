@@ -3,49 +3,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <script src="scripts.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
 
-  <style>
-    #one{
-      border: 2px;
-    }
-    .two{
-      border: 5px;
-    }
-  </style>
-
-  <link rel="stylesheet" href="style.css">
+  <title>Quote Generator</title>
 </head>
 <body>
-  <!-- Heading Tag -->
-  <h1>Welcome</h1>
-  <h2>to the Takeo's</h2>
-  <h3>Bootcamp</h3>
+  <div class="quote-container">
+    <div class="quote-text">
+      <i class="fa-solid fa-quote-left"></i>
+      <span id="quote">Happiness is the reward we get for living to the highest right we know.</span>
+    </div>
+    
+    <div class="quote-author">
+      <span id="author">Richard Bach</span>
+    </div>
 
-  <!-- Paragraph -->
-  <p>Lorem Ipsum</p>
-
-  <!-- Line Break-->
-  <hr>
-  <!--Void tages: the tags that do not require the closing tag-->
-  <img src="images/MyPhoto.jpeg" alt=""/>
-  <!-- control + spce to get all -->
-
-  <p id="one">this is a Paragraph</p>
-  <p id="one">this is a Paragraph</p>
-
-  <h1 class="two">This is a header</h1>
-  <h1 class="two">this is also a heading</h1>
-
-  <p id="external">This is a paragraph using external css file</p>
-
-  <script>
-    let x = document.getElementById("one");
-    console.log(x);
-
-    let y = document.getElementsByClassName("two");
-    console.log(y);
-  </script>
+    <div class="button-container">
+      <button id="twitter-button" ><i class="fa-brands fa-twitter"></i></button>
+      <button id="new-quote">New Quotes</button>
+    </div>
+  </div>
 </body>
 </html>
-
